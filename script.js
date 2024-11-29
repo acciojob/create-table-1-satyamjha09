@@ -1,15 +1,15 @@
 function insert_Row() {
-    // Get the table element by ID
+    // Get the table element by its ID
     const table = document.getElementById("sampleTable");
 
-    // Create a new row element
+    // Create a new row
     const newRow = document.createElement("tr");
 
-    // Create the first cell and add the required text
+    // Create the first cell
     const cell1 = document.createElement("td");
     cell1.textContent = "New Cell1";
 
-    // Create the second cell and add the required text
+    // Create the second cell
     const cell2 = document.createElement("td");
     cell2.textContent = "New Cell2";
 
